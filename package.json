@@ -1,0 +1,21 @@
+{
+  "name": "fishing_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "env": "^0.0.2",
+    "express": "^4.18.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "jest": "^28.0.1"
+  }
+}
