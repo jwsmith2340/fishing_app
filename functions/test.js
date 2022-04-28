@@ -1,9 +1,14 @@
 const db = require('../database/databasepg');
 
-let response = db.query('SELECT * FROM TEST', (err, res) => {
+db.query('SELECT * FROM TEST', (err, res) => {
     if (err) {
-      console.log(err.stack)
+      console.log(err.stack);
     } else {
-      console.log(res.rows[0])
+      console.log(res.rows[0]);
     }
   });
+
+let array = ['this', 3, 'is', 4, 'a_mess'];
+
+console.log(array);
+
