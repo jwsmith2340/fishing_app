@@ -1,7 +1,7 @@
 {
   "name": "fishing_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "My online fly-fishing notebook",
   "main": "app.js",
   "scripts": {
     "test": "jest"
