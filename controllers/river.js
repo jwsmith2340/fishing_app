@@ -1,9 +1,9 @@
-const express = require('express')
-const river_router = express.Router()
+const express = require('express');
+const river_router = express.Router();
 
 river_router.get('/', (req, res) => {
 
-    res.send('river page')
+    res.send('river page');
 
 });
 
