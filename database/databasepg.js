@@ -1,6 +1,6 @@
 const {Client} = require('pg');
 
-const db = new Client({
+const pool = new Client({
 
     host: "localhost",
     user: "postgres",
@@ -10,14 +10,14 @@ const db = new Client({
 
 });
 
-db.connect();
+pool.connect();
 
-// db.query(`SELECT * FROM TEST`, (err, res) => {
+// pool.query(`SELECT * FROM TEST`, (err, res) => {
 
 //     //console.log(res)
 
-//     db.end
+//     pool.end
 
 // });
 
-module.exports = db;
+module.exports = pool;
