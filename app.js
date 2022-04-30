@@ -1,9 +1,9 @@
 const express = require('express')
+const pool = require('./database/databasepg');
+const std = require('std')
 const trip_router = require('./controllers/trip')
 const fly_box_router = require('./controllers/fly-box');
 const river_router = require('./controllers/river');
-const db = require('./database/databasepg');
-const std = require('std')
 
 const app = express()
 
