@@ -12,12 +12,4 @@ const pool = new Client({
 
 pool.connect();
 
-// pool.query(`SELECT * FROM TEST`, (err, res) => {
-
-//     //console.log(res)
-
-//     pool.end
-
-// });
-
 module.exports = pool;
