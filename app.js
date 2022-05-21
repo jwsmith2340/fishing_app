@@ -18,6 +18,6 @@ app.use(cors());
 
 app.use('/api/trip', trip_router)
 app.use('/api/fly_box', fly_box_router)
-app.use('/api/river', river_router)
+app.use('/api/rivers', river_router)
 
 app.listen(port, () => console.log(`listening on ${port}`));
