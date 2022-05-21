@@ -6,7 +6,7 @@ const river_router = express.Router();
 river_router.get('/', async (req, res) => {
 
     try {
-        res.send(await db.recs(`SELECT * FROM FLY`))
+        res.send(await db.recs(`SELECT * FROM RIVERS`))
     } catch (error) {
         res.status(400).json(error);
     }
